@@ -2,7 +2,7 @@
  "name": "Hivea Foods Poultry Manager",
   "short_name": "Hivea Foods",
   "description": "Smart management system for Hivea Foods poultry farm.",
-  "start_url": "/Hivea-foods/index.html",
+  "start_url": "/Hivea Foods/index.html",
   "display": "standalone",
   "background_color": "#052e16",
   "theme_color": "#14532d",
