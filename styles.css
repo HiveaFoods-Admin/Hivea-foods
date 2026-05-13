@@ -1,0 +1,66 @@
+body { background: linear-gradient(to right, #052e16, #14532d); font-family: Arial; margin: 0; }
+.container, .container1, .container2 { 
+    background: linear-gradient(rgba(22, 53, 13, 0.55),rgba(0,0,0,0.55)), url("my design LOGO.jpg");
+    border: 2px solid rgb(3, 43, 3) ;
+    border-radius: 20px;   box-shadow: 0 8px 20px rgba(0,0,0,0.80);
+    padding: 25px; margin: 20px auto;
+      width: 70%;
+    max-width: 450px;
+    min-height: 550px;
+    background-size: contain;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; text-align: center; justify-content: center;
+}
+.navbar { background: white; display: flex; justify-content: space-around; padding: 10px; border-radius: 12px; margin: 15px 0; }
+.navbar a { color: #052e16; text-decoration: none; font-weight: bold; font-size: 14px; }
+input { width: 85%; padding: 10px; margin: 8px 0; border-radius: 8px; border: none; }
+.btn-primary, .btn-secondary {
+    padding: 12px; background: linear-gradient(to right, #ffc823, #072707); 
+    color: white; border: none; border-radius: 12px; cursor: pointer; font-weight: bold; width: 70%;
+}
+.Weekly-card { background: white; color: #052e16; border-radius: 15px; padding: 15px; margin-top: 10px; }
+table { width: 100%; border: 2px solid #14532d; text-align: center; border-collapse: collapse; color: #072707; }
+.Weekly-card th {
+    color: #14532d;
+    font-size: 14px;
+    border-bottom: 2px solid #4dda02;
+}
+.Weekly-card td{
+    padding: 8px;
+}
+.Weekly-card input{
+    color: #14532d !important;
+    border: 1px solid #14532d !important;
+    text-align: center;
+}
+.status-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px auto;
+    width: 90%;
+    text-align: left;
+}
+
+.status-box p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffc823; /* Matching your gold button color */
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around; /* Distributes them evenly on one line */
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Puts a small space between the dot and the word */
+}
+

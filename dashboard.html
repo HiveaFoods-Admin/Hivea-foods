@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Hivea Foods - Dashboard</title>
+</head>
+<body>
+    <div class="container1">
+        <h2><b> POULTRY SCHEDULE </b></h2>
+        
+        <div id="latest-scan-banner">
+            <small>Latest Scan: <span id="scan-time">No data</span></small><br>
+            <strong id="scan-result">System Ready</strong>
+        </div>
+
+        <div class="navbar">
+            <a href="MORNING.HTML"> Morning </a>
+            <a href="AFTERNOON.HTML"> Afternoon </a>
+            <a href="NIGHT.HTML"> Night </a> 
+        </div>
+
+        <button class="btn-secondary" onclick="startCamera()"> Snap the droppings </button>
+        
+        <div id="camera-container">
+            <video id="camera-feed" autoplay playsinline></video>
+        </div>
+
+        <div class="feed-summary">
+            <p>📊 <b>TOTAL FEED USED:</b> <span id="total-feed-display">0</span> KG</p>
+        </div>
+
+        <div class="Weekly-card">
+            <p><u> WEEKLY WEIGHT </u></p>
+            <table> 
+                <thead>
+                    <tr>
+                        <th>Total kg</th>
+                        <th>Birds</th>
+                        <th>Avg</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="number" id="totalW"></td>
+                        <td><input type="number" id="birdC"></td>
+                        <td><input type="text" id="avgW" readonly></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="recommendation-box">
+            <strong>🌿 Organic Action:</strong>
+            <p id="herbal-recipe"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hivea Foods - Schedule</title>
+</head>
+<body>
+    <div class="container">
+        <p id="MORNING"><b> ACTIVITY LOG </b></p>
+        
+        <label><b> FEED QUANTITY (KG) </b></label>
+        <input type="number" id="FeedQty" placeholder="Enter KG used">
+        
+        <label><b> WATER QUANTITY (L) </b></label>
+        <input type="number" id="WaterLtr" placeholder="Litres">
+
+        <label><b> VACCINE / MEDICINE </b></label> 
+        <input type="text" id="Water Quantity" placeholder="Waiting for scan..." readonly>
+
+
+        <div class="status-box">
+    <p><b>DROPPINGS:</b></p>
+    <div class="radio-group">
+        <label><input type="radio" name="droppings" value="Normal"> Normal</label>
+        <label><input type="radio" name="droppings" value="abnormal"> Abnormal</label>
+    </div>
+    
+    <p><b>HEALTH:</b></p>
+    <div class="radio-group">
+        <label><input type="radio" name="health" value="Good"> Good</label>
+        <label><input type="radio" name="health" value="Bad"> Bad</label>
+    </div>
+</div>
+
+        <button class="btn-primary" onclick="saveFeed()"> Save & Back </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
